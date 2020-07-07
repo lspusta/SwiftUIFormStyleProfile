@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BD49E81124B526CB00FC45F4 /* AppVersionRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD49E81024B526CB00FC45F4 /* AppVersionRow.swift */; };
 		BD6F6C6F24B37C8500B07662 /* SwiftUIFormStyleProfileApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6F6C6E24B37C8500B07662 /* SwiftUIFormStyleProfileApp.swift */; };
 		BD6F6C7124B37C8500B07662 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6F6C7024B37C8500B07662 /* ContentView.swift */; };
 		BD6F6C7324B37C8600B07662 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD6F6C7224B37C8600B07662 /* Assets.xcassets */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BD49E81024B526CB00FC45F4 /* AppVersionRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppVersionRow.swift; sourceTree = "<group>"; };
 		BD6F6C6B24B37C8500B07662 /* SwiftUIFormStyleProfile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIFormStyleProfile.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD6F6C6E24B37C8500B07662 /* SwiftUIFormStyleProfileApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIFormStyleProfileApp.swift; sourceTree = "<group>"; };
 		BD6F6C7024B37C8500B07662 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -58,6 +60,7 @@
 		BD6F6C6D24B37C8500B07662 /* SwiftUIFormStyleProfile */ = {
 			isa = PBXGroup;
 			children = (
+				BD49E81024B526CB00FC45F4 /* AppVersionRow.swift */,
 				BD7E5AAA24B3D59200475024 /* extension+View.swift */,
 				BD7E5AA824B3D56B00475024 /* FeedbackManager.swift */,
 				BD6F6C6E24B37C8500B07662 /* SwiftUIFormStyleProfileApp.swift */,
@@ -150,6 +153,7 @@
 				BD7E5AA924B3D56B00475024 /* FeedbackManager.swift in Sources */,
 				BD7E5AAB24B3D59200475024 /* extension+View.swift in Sources */,
 				BD6F6C7124B37C8500B07662 /* ContentView.swift in Sources */,
+				BD49E81124B526CB00FC45F4 /* AppVersionRow.swift in Sources */,
 				BD6F6C6F24B37C8500B07662 /* SwiftUIFormStyleProfileApp.swift in Sources */,
 				BD7E5AA724B3D23100475024 /* SettingsRow.swift in Sources */,
 			);
