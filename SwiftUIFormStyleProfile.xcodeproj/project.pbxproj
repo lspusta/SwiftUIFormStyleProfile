@@ -3,11 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		BD49E81124B526CB00FC45F4 /* AppVersionRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD49E81024B526CB00FC45F4 /* AppVersionRow.swift */; };
+		BD49E81424B5FDDE00FC45F4 /* BottomBar-SwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = BD49E81324B5FDDE00FC45F4 /* BottomBar-SwiftUI */; };
 		BD6F6C6F24B37C8500B07662 /* SwiftUIFormStyleProfileApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6F6C6E24B37C8500B07662 /* SwiftUIFormStyleProfileApp.swift */; };
 		BD6F6C7124B37C8500B07662 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6F6C7024B37C8500B07662 /* ContentView.swift */; };
 		BD6F6C7324B37C8600B07662 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD6F6C7224B37C8600B07662 /* Assets.xcassets */; };
@@ -35,6 +36,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD49E81424B5FDDE00FC45F4 /* BottomBar-SwiftUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,6 +99,9 @@
 			dependencies = (
 			);
 			name = SwiftUIFormStyleProfile;
+			packageProductDependencies = (
+				BD49E81324B5FDDE00FC45F4 /* BottomBar-SwiftUI */,
+			);
 			productName = SwiftUIFormStyleProfile;
 			productReference = BD6F6C6B24B37C8500B07662 /* SwiftUIFormStyleProfile.app */;
 			productType = "com.apple.product-type.application";
@@ -124,6 +129,9 @@
 				Base,
 			);
 			mainGroup = BD6F6C6224B37C8500B07662;
+			packageReferences = (
+				BD49E81224B5FDDE00FC45F4 /* XCRemoteSwiftPackageReference "bottombar-swiftui" */,
+			);
 			productRefGroup = BD6F6C6C24B37C8500B07662 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -344,6 +352,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		BD49E81224B5FDDE00FC45F4 /* XCRemoteSwiftPackageReference "bottombar-swiftui" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/smartvipere75/bottombar-swiftui";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		BD49E81324B5FDDE00FC45F4 /* BottomBar-SwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BD49E81224B5FDDE00FC45F4 /* XCRemoteSwiftPackageReference "bottombar-swiftui" */;
+			productName = "BottomBar-SwiftUI";
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = BD6F6C6324B37C8500B07662 /* Project object */;
 }

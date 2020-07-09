@@ -1,9 +1,8 @@
 //
 //  SettingsRow.swift
-//  SwiftUI Settings Screen
+//  SwiftUIFormStyleProfile
 //
-//  Created by Rudrank Riyam on 18/04/20.
-//  Copyright © 2020 Rudrank Riyam. All rights reserved.
+//  Created by Lucas Spusta on 7/6/20.
 //
 
 import SwiftUI
